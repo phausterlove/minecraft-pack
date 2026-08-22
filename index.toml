@@ -21,14 +21,6 @@ hash = "9ceb72b7c586df8828ee5e9eaf096c913f8debe92805cd5ce6c4ea8922e5fe1d"
 metafile = true
 
 [[files]]
-file = "mods/newfabricmod-1.0.0-fabric-26.2.jar"
-hash = "26a69bc8d67743a5d71952479bfa5ec084e7e975e9fc62d35f30d68eef5c9f45"
-
-[[files]]
-file = "mods/newfabricmodjack-1.0.0-fabric-26.2.jar"
-hash = "f40af33ae64939300ae5d1114d2afa4016e11d596a2152296a0432a0f4794e6c"
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "b234ade7fd54bb9d99c27769cd1635b18835752676d0cdd0a29af2b4146251a8"
 metafile = true
