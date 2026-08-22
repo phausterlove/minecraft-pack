@@ -1,0 +1,13 @@
+name = "Ginger-and-Sugar"
+author = "R&J"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "982bba73bbfc1fc54741e97f7a51fa0b74bae51ea45f06b379080363290162b7"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "26.2"

@@ -1,0 +1,13 @@
+name = "MineGIT"
+filename = "MineGIT-fabric-1.7.0-mc26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4XmKUq9G/versions/YJv93IE6/MineGIT-fabric-1.7.0-mc26.2.jar"
+hash-format = "sha512"
+hash = "fa43ee453e4e972034debbae6dbd10eb5367ea48d8f735f6d11c253919a9ffe34d90d3cc75756685a54ba2b376d8f3e9301d057f7fdc6adceef9914c16ab0774"
+
+[update]
+[update.modrinth]
+mod-id = "4XmKUq9G"
+version = "YJv93IE6"
