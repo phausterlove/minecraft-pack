@@ -36,7 +36,7 @@ if errorlevel 1 (
 echo.
 echo === Updating your game ===
 cd /d "%MC%"
-java -jar packwiz-installer-bootstrap.jar "%PACK%\pack.toml"
+java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/phausterlove/minecraft-pack/main/pack.toml
 if errorlevel 1 goto fail
 
 echo.
