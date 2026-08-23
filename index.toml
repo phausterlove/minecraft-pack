@@ -28,3 +28,7 @@ metafile = true
 file = "mods/placeholder-api.pw.toml"
 hash = "b234ade7fd54bb9d99c27769cd1635b18835752676d0cdd0a29af2b4146251a8"
 metafile = true
+
+[[files]]
+file = "mods/yay-1.0.0-fabric-26.2.jar"
+hash = "bec98382966f2b70bfb139815ebd8c9b4d335ee307aeb1037a1109b65c87cd03"
