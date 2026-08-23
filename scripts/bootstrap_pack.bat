@@ -99,18 +99,21 @@ if exist "%PACK%\scripts\packwiz.exe" (
 )
 
 echo.
-echo === Desktop shortcuts ===
-copy /y "%PACK%\scripts\publish_mod.bat" "%userprofile%\Desktop\" >nul
-copy /y "%PACK%\scripts\sync_mods.bat" "%userprofile%\Desktop\" >nul
+echo === Desktop shortcut ===
+copy /y "%PACK%\scripts\mods.bat" "%userprofile%\Desktop\" >nul
+if errorlevel 1 (
+  echo COULD NOT COPY mods.bat - is it in %PACK%\scripts\ ?
+  goto end
+)
 echo Copied.
 
 echo.
 echo ================================
 echo   DONE
 echo ================================
-echo Two icons on your Desktop:
-echo   publish_mod - share your mod
-echo   sync_mods   - get your brother's mods
+echo One icon on your Desktop:
+echo   mods - shares your mods AND gets your brother's
+echo   Run it before you play, and after you make a mod.
 echo.
 echo STILL BY HAND:
 echo   MCreator export path -^> %PACK%\mods\
