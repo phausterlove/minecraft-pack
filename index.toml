@@ -25,6 +25,10 @@ hash = "9ceb72b7c586df8828ee5e9eaf096c913f8debe92805cd5ce6c4ea8922e5fe1d"
 metafile = true
 
 [[files]]
+file = "mods/neiborhoods-1.0.0-fabric-26.2.jar"
+hash = "0154648a11f2ddabe3a8ea6c269a1873bcbc033260086753faf2b191ae30e95c"
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "b234ade7fd54bb9d99c27769cd1635b18835752676d0cdd0a29af2b4146251a8"
 metafile = true
