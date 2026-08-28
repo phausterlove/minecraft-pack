@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/Ronin Parkour.jar"
-hash = "a342a3f7a6ad33c53f54a48033fa52f15d9342f3a49579e1e67de383f7629c2f"
+hash = "7bc11ba1db1af304c103182da205533f6fcc5d4d780687422317c1421df929c4"
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
