@@ -11,27 +11,28 @@ if not exist "%PACK%\.git" (
 
 cd /d "%PACK%"
 
-echo === Getting latest ===
-git pull --rebase
-if errorlevel 1 goto fail
-
-echo.
 echo === Checking your mods ===
 "%PACK%\scripts\packwiz.exe" refresh
 if errorlevel 1 goto fail
 
+REM Commit local changes FIRST so a re-exported mod never blocks the pull
 git add -A
 git diff --cached --quiet
 if errorlevel 1 (
-  echo Changes found. Publishing...
+  echo Local changes found. Saving...
   git commit -m "mod update from %username%"
   if errorlevel 1 goto fail
-  git push
-  if errorlevel 1 goto fail
-  echo Published! Tell the other player to run this too.
-) else (
-  echo Nothing new to publish.
 )
+
+echo.
+echo === Getting latest ===
+git pull --rebase
+if errorlevel 1 goto pullfail
+
+echo.
+echo === Publishing ===
+git push
+if errorlevel 1 goto fail
 
 echo.
 echo === Updating your game ===
@@ -43,6 +44,14 @@ echo.
 echo ================================
 echo   ALL DONE - go play
 echo ================================
+goto end
+
+:pullfail
+echo.
+echo Could not merge with the other player's changes.
+echo (Did you both edit the same mod at the same time?)
+echo Show this window to Sam. To recover, Sam can run:
+echo    cd C:\minecraft-pack ^&^& git rebase --abort
 goto end
 
 :fail
