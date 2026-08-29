@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/Ronin Parkour.jar"
-hash = "7bc11ba1db1af304c103182da205533f6fcc5d4d780687422317c1421df929c4"
+hash = "0afe91d8208a8157c0523d73d14cb979e750b6fc750f4a6541ece4745d47f927"
 
 [[files]]
 file = "mods/battle_time-1.0.0-neoforge-26.1.2.jar"
