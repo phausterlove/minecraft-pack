@@ -5,6 +5,10 @@ file = "mods/Ronin Parkour.jar"
 hash = "0afe91d8208a8157c0523d73d14cb979e750b6fc750f4a6541ece4745d47f927"
 
 [[files]]
+file = "mods/amethyst_tools_and_armor-1.0.0-fabric-26.2.jar"
+hash = "56be7661eeacaf0ebba8ce1a27d9aec49832f1d4e6aa12217fc30b8405232cda"
+
+[[files]]
 file = "mods/battle_time-1.0.0-neoforge-26.1.2.jar"
 hash = "79853fb6bd78351799a5b945be1182f651bb7e26a6450b8035f1ffbfffd55366"
 
